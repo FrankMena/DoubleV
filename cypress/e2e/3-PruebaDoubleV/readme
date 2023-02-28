@@ -1,0 +1,21 @@
+Para clonar y ejecutar el proyecto deben hacer lo siguiente:
+
+Para clonar: Inicia sesión en GitHub.com y GitHub Desktop antes de comenzar la clonación
+1) En GitHub.com, navega a la página principal del repositorio. Encima de la lista de archivos, haga clic en  Código.
+2) Haga clic en  Abrir con GitHub Desktop para clonar y abrir el repositorio con GitHub Desktop
+3) Haga clic en Elegir... y, con el Explorador de Windows, vaya hasta una ruta local donde quiera clonar el repositorio.
+4) Haga clic en Clone (Clonar)
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Para ejecutar el proyecto: Debemos tener instalado cypress en el equipo
+
+1) Debemos instalar nodejs (https://www.wingo.com/__/#/specs/runner?file=cypress/e2e/3-PruebaDoubleV/Busqueda.cy.js) 
+2) Debemos instalar Cypress (https://www.wingo.com/__/#/specs/runner?file=cypress/e2e/3-PruebaDoubleV/Busqueda.cy.js) 
+3) luego debemos levantar una consola CMD y ejecutar el codigo  npm install cypress --save-ved
+NOTA: debemos realizarlo estando en la ruta donde tenemos creada la carpeta del proyecto
+4) Luego de instalado ejecutamos el codigo: npm init
+5) luegos nos hara una serie de preguntas la primera package name le asignamos un nombre y los demas campos los podemos dejar predeterminado (en blanco dandole enter)
+6) Una vez se haya instalado, para hacer el primer inicio ejecutamos el comando: npx cypress open
+
+Esto abrira la interfaz de cypress y seleccionaremos la opción E2E y allí podremos ver la carpeta con todos los archivos, nos ubicamos en la carpeta llamada 3-PruebaDoubleV, seguido el archivo Busqueda y lo ejecutamos
